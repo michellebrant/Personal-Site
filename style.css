@@ -1,0 +1,37 @@
+body{
+  background:
+  linear-gradient(
+      rgba(0,0,0, .2),
+      rgba(0, 0, 0, .2)
+    ), url("BKBridge.jpg") no-repeat 55%;
+  background-size: 150%;
+  height: ;
+}
+
+.title_card{
+  text-align: center;
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 50px;
+  margin-top: 25%;
+}
+
+.special_m{
+  text-align: center;
+  color: white;
+  font-size: 60px;
+}
+
+.learn_more{
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+
+.down_arrow{
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  position: fixed;
+}
+
