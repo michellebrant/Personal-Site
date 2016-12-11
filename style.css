@@ -1,11 +1,12 @@
-body{
+.head{
   background:
   linear-gradient(
       rgba(0,0,0, .2),
       rgba(0, 0, 0, .2)
     ), url("BKBridge.jpg") no-repeat 55%;
   background-size: 150%;
-  height: ;
+  height: 800px;
+/*   margin-top: -400px; */
 }
 
 .title_card{
@@ -13,25 +14,36 @@ body{
   color: white;
   font-family: 'Abril Fatface', cursive;
   font-size: 50px;
-  margin-top: 25%;
 }
 
 .special_m{
   text-align: center;
   color: white;
   font-size: 60px;
+  font-family: 'Abril Fatface', cursive;
 }
 
-.learn_more{
-  text-align: center;
-  color: white;
-  font-size: 15px;
-}
-
-.down_arrow{
+footer{
   text-align: center;
   color: white;
   font-size: 15px;
   position: fixed;
 }
 
+p{
+  margin-bottom: 10px;
+}
+.learnmore{
+  font-family: 'Montserrat', sans-serif;
+}
+.skills{
+  height: 800px;
+  text-align: center;
+  color: stylish-color-dark;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.skills2{
+  margin-top: 50px;
+}
