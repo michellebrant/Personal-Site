@@ -1,0 +1,52 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.head{
+  background:
+  linear-gradient(
+      rgba(0,0,0, .2),
+      rgba(0, 0, 0, .2)
+    ), image_url("BKBridge.jpg") no-repeat 55%;
+  background-size: 150%;
+  height: 800px;
+/*   margin-top: -400px; */
+}
+
+.title_card{
+  text-align: center;
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 50px;
+}
+
+.special_m{
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  font-family: 'Abril Fatface', cursive;
+}
+
+footer{
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  position: fixed;
+}
+
+p{
+  margin-bottom: 10px;
+}
+.learnmore{
+  font-family: 'Montserrat', sans-serif;
+}
+.skills{
+  height: 800px;
+  text-align: center;
+  color: stylish-color-dark;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.skills2{
+  margin-top: 50px;
+}
