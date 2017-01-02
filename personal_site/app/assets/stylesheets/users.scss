@@ -1,12 +1,9 @@
-// Place all the styles related to the users controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
 .head{
   background:
   linear-gradient(
       rgba(0,0,0, .2),
       rgba(0, 0, 0, .2)
-    ), image_url("BKBridge.jpg") no-repeat 55%;
+    ), url("BKBridge.jpg") no-repeat 55%;
   background-size: 150%;
   height: 800px;
 /*   margin-top: -400px; */
@@ -49,4 +46,46 @@ p{
 
 .skills2{
   margin-top: 50px;
+  color: stylish-color-dark;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+h3{
+    color: stylish-color-dark;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+.name{
+  font-size: 40px;
+  float: left;
+    color: stylish-color-dark;
+  font-family: 'Pacifico', cursive;
+  margin: 0 auto;
+  padding: 0px;
+}
+p{
+  color: stylish-color-dark;
+  font-family: 'Montserrat', sans-serif;
+}
+ul{
+  list-style: none;
+  float: right;
+}
+li{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 15px;
+    color: stylish-color-dark;
+    font-family: 'Montserrat', sans-serif;
+}
+.me {
+    border-radius: 45px;
+    margin-left: 80px;
+}
+.myskills{
+  text-align: center;
+}
+.skills3{
+  background-color: #e3f2fd;
 }
