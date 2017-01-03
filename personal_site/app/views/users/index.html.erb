@@ -20,21 +20,22 @@
 </footer>
 </div>
 <nav>
+<nav class="navbar-fixed-top navbar navbar-default navbar">
 <p class="name">M</p>
   <ul>
-    <li><a href="" title=""></a>About</li>
+    <li><%= link_to "About", "#aboutmejump" %></li>
      <li><a href="" title=""></a>Work</li>
       <li><a href="" title=""></a>Contact</li>
   </ul>
 </nav>
 <br>
 <br>
-<hr>
 <br>
 <br>
+<div id="aboutmejump">
 <div class="row">
 <div class="col-md-4">
-<img class="me" src="me.png" />
+<%= image_tag(("me.png"), :class=> 'me') %>
 </div>
 <div class="col-md-8">
 <h1 class="skills2">About Me</h1>
@@ -44,6 +45,7 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
 </div>
 </div>
 <br>
@@ -87,6 +89,27 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div>
 </div>
 </div>
+<div class="work">
+<h2 class="skills2">Portfolio</h2>
+<br>
+<br>
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<div class="tripcontainer">
+<div class="description">
+hey hye
+<br>
+hey hey
+<br>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
 </body>
-  <script src="script.js"></script>
 </html>

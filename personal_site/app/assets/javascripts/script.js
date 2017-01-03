@@ -1,3 +1,4 @@
+$(document).ready(function () {
 console.log('script loaded')
 fontArray = [
 "'Abril Fatface', cursive",
@@ -30,8 +31,7 @@ function changeMFonts(){
   $('.name').css("font-family", font)
 }
 
-
-$('.name').mouseover(function(){
+$('.name').mouseenter(function(){
   namei = setInterval(function(){
   changeMFonts();
 }, 500)
@@ -45,8 +45,42 @@ $('.name').mouseleave(function(){
 $(window).bind('scroll', function() {
      if ($(window).scrollTop() > 100) {
          $('.learnmore').hide();
+         $('.navbar').show();
      }
      else {
          $('.learnmore').show();
+         $('.navbar').hide();
      }
 });
+
+  $(".navbar").hide(); //Hide the navigation bar first
+
+$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+});
+
+
+description = $('.description')
+description.hide();
+
+
+$('.tripcontainer').mouseenter(function(event) {
+  console.log('it worked')
+  $('.tripcontainer').addClass('hover')
+  description.show();
+  // breakit = $('<br>')
+  // description.text('TravelApp is a fullstack Ruby on Rails app that allows you to plan your next adventure in one place.')
+  // $('.tripcontainer').append(description)
+  // $('.tripcontainer').append(description)
+});
+
+$('.tripcontainer').mouseleave(function(event) {
+  console.log('it worked')
+  $('.tripcontainer').removeClass('hover')
+  description.hide();
+});
+
+});
+
+

@@ -23,6 +23,12 @@
   font-family: 'Abril Fatface', cursive;
 }
 
+.work{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  height: 600px;
+}
+
 footer{
   text-align: center;
   color: white;
@@ -42,6 +48,10 @@ p{
   color: stylish-color-dark;
   font-family: 'Montserrat', sans-serif;
 
+}
+
+#aboutmejump{
+  background-color: stylish-color-dark;
 }
 
 .skills2{
@@ -88,4 +98,20 @@ li{
 }
 .skills3{
   background-color: #e3f2fd;
+  height: 525px;
+}
+
+.tripcontainer{
+  background: url("mytrip.jpg") no-repeat 55%;
+  width: 558px;
+  height: 323px;
+  background-size: 100%;
+}
+
+.hover{
+  background:
+  linear-gradient(
+      rgba(0,0,0, .2),
+      rgba(0, 0, 0, .2)
+    );
 }
