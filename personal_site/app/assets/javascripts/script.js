@@ -63,22 +63,32 @@ $(document).on('click', '[data-toggle="lightbox"]', function(event) {
 
 description = $('.description')
 description.hide();
+description2 = $('.description2')
+description2.hide();
 
 
 $('.tripcontainer').mouseenter(function(event) {
   console.log('it worked')
   $('.tripcontainer').addClass('hover')
   description.show();
-  // breakit = $('<br>')
-  // description.text('TravelApp is a fullstack Ruby on Rails app that allows you to plan your next adventure in one place.')
-  // $('.tripcontainer').append(description)
-  // $('.tripcontainer').append(description)
 });
 
 $('.tripcontainer').mouseleave(function(event) {
   console.log('it worked')
   $('.tripcontainer').removeClass('hover')
   description.hide();
+});
+
+$('.foodcontainer').mouseenter(function(event) {
+  console.log('it worked')
+  $('.foodcontainer').addClass('hover')
+  description2.show();
+});
+
+$('.foodcontainer').mouseleave(function(event) {
+  console.log('it worked')
+  $('.foodcontainer').removeClass('hover')
+  description2.hide();
 });
 
 });
