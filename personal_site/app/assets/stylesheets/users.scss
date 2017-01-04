@@ -11,11 +11,19 @@
 
 .title_card{
   text-align: center;
+  padding-top: 200px;
   color: white;
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Raleway', sans-serif;
   font-size: 50px;
 }
+.desc{
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
 
+}
 .special_m{
   text-align: center;
   color: white;
@@ -24,7 +32,7 @@
 }
 
 .work{
-  font-family: 'Montserrat', sans-serif;
+   font-family: 'Raleway', sans-serif;
   text-align: center;
   height: 600px;
 }
@@ -40,13 +48,13 @@ p{
   margin-bottom: 10px;
 }
 .learnmore{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 .skills{
   height: 800px;
   text-align: center;
   color: stylish-color-dark;
-  font-family: 'Montserrat', sans-serif;
+   font-family: 'Raleway', sans-serif;
 
 }
 
@@ -57,12 +65,21 @@ p{
 .skills2{
   margin-top: 50px;
   color: stylish-color-dark;
-  font-family: 'Montserrat', sans-serif;
+   font-family: 'Raleway', sans-serif;
+  // text-align: center;
+}
+
+.skills4{
+  margin-top: 50px;
+  color: stylish-color-dark;
+   font-family: 'Raleway', sans-serif;
+   font-weight: bold;
   text-align: center;
 }
-h3{
+
+h2{
     color: stylish-color-dark;
-  font-family: 'Montserrat', sans-serif;
+   font-family: 'Raleway', sans-serif;
   text-align: center;
 }
 .name{
@@ -75,7 +92,7 @@ h3{
 }
 p{
   color: stylish-color-dark;
-  font-family: 'Montserrat', sans-serif;
+   font-family: 'Raleway', sans-serif;
 }
 ul{
   list-style: none;
@@ -87,11 +104,14 @@ li{
     padding-right: 10px;
     padding-top: 15px;
     color: stylish-color-dark;
-    font-family: 'Montserrat', sans-serif;
+     font-family: 'Raleway', sans-serif;
 }
 .me {
-    border-radius: 45px;
+    // border-radius: 45px;
     margin-left: 80px;
+}
+#aboutmebold{
+  font-weight: bold;
 }
 .myskills{
   text-align: center;
