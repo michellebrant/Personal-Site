@@ -8,7 +8,9 @@
   height: 800px;
 /*   margin-top: -400px; */
 }
-
+body{
+    transition: opacity 300ms ease-out;
+}
 .title_card{
   text-align: center;
   padding-top: 200px;
@@ -123,16 +125,20 @@ li{
 
 .tripcontainer{
   background: url("mytrip.jpg") no-repeat 55%;
-  width: 558px;
-  height: 323px;
+  width: 502px;
+  height: 290px;
   background-size: 100%;
+  padding: 10px;
+  margin:10px;
 }
 
 .foodcontainer{
   background: url("foodlist.png") no-repeat 55%;
-  width: 558px;
-  height: 323px;
+  width: 502px;
+  height: 290px;
   background-size: 100%;
+  margin:10px;
+
 }
 
 .hover{
