@@ -99,7 +99,7 @@
 </div>
 </div>
 <div class="work">
-<h2 class="skills2">Portfolio</h2>
+<h1 class="skills4">Portfolio</h1>
 <br>
 <br>
 <div class="container">
@@ -135,7 +135,51 @@ from brunch, to date spots, never be scrambling for ideas again. The app uses th
 
 </div>
 </div>
-
+</div>
+<div class="contact">
+<h1 class="skills4"> Contact Me </h1>
+<form action='/users' method='POST'>
+<div class="row">
+<div class="col-md-3">
+</div>
+<div class="col-md-6">
+<p class="contactdetails"> Send me an email at michelle.brant18@gmail.com, shoot me a note below, or find me on any of my profiles below!</p>
+</div>
+<div class="col-md-3">
+</div>
+</div>
+<form>
+  <label>Name</label><br><br>
+    <input name='name'><br><br>
+  <label>Email</label><br><br>
+    <input name='email'><br><br>
+  <label>Note</label><br><br>
+<%= text_area_tag(:message, " ",size: "55x5") %>
+    <br><br>
+  <button>Submit</button>
+</form>
+<div class="col-md-2">
+</div>
+<div class="col-md-8 logo">
+<div class="col-md-4">
+</div>
+<div class="col-md-1">
+<%= link_to image_tag("social-1_logo-github.svg"), 'https://github.com/michellebrant', :target => "_blank" %>
+</div>
+<div class="col-md-1">
+<%= link_to image_tag("social-1_round-instagram.svg"), 'https://instagram.com/michellebrant18', :target => "_blank" %>
+</div>
+<div class="col-md-1">
+<%= link_to image_tag("social-1_round-linkedin.svg"), 'https://www.linkedin.com/in/michellebrant', :target => "_blank" %>
+</div>
+<div class="col-md-1">
+<%= link_to image_tag("social-1_round-twitter.svg"), 'https://twitter.com/michellebrant18', :target => "_blank" %>
+</div>
+<div class="col-md-4">
+</div>
+</div>
+<div class="col-md-2">
+</div>
 </div>
 </body>
 </html>

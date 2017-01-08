@@ -45,11 +45,9 @@ $('.name').mouseleave(function(){
 $(window).bind('scroll', function() {
      if ($(window).scrollTop() > 100) {
          $('.learnmore').hide();
-         $('.navbar').show();
      }
      else {
          $('.learnmore').show();
-         $('.navbar').hide();
      }
 });
 

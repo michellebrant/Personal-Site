@@ -34,9 +34,12 @@ body{
 }
 
 .work{
-   font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
   text-align: center;
   height: 600px;
+  background-color: #3E4551;
+  color: white;
+
 }
 
 footer{
@@ -49,9 +52,11 @@ footer{
 p{
   margin-bottom: 10px;
 }
+
 .learnmore{
   font-family: 'Raleway', sans-serif;
 }
+
 .skills{
   height: 800px;
   text-align: center;
@@ -72,13 +77,15 @@ p{
 }
 
 .skills4{
-  margin-top: 50px;
   color: stylish-color-dark;
-   font-family: 'Raleway', sans-serif;
-   font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
   text-align: center;
 }
 
+h1{
+  margin: 0 auto;
+}
 h2{
     color: stylish-color-dark;
    font-family: 'Raleway', sans-serif;
@@ -147,4 +154,32 @@ li{
       rgba(0,0,0, .2),
       rgba(0, 0, 0, .2)
     );
+}
+
+.contact{
+  height: 600px;
+  color: #3E4551;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo{
+  position: center;
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+
+img{
+  display: inline-block;
+}
+
+.contactdetails{
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+input{
+  width: 400px;
 }
