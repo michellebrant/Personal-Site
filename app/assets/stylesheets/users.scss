@@ -6,7 +6,9 @@
     ), url("BKBridge.jpg") no-repeat 55%;
   background-size: 150%;
   height: 800px;
-/*   margin-top: -400px; */
+  background-repeat: no-repeat;
+  position: fixed;
+  width: 100%;
 }
 body{
     transition: opacity 300ms ease-out;
@@ -65,10 +67,13 @@ p{
 
 }
 
-#aboutmejump{
-  background-color: stylish-color-dark;
-}
 
+#WRAPPER{
+  background-color:white;
+  position: relative;
+  margin-top: 800px;
+
+}
 .skills2{
   margin-top: 50px;
   color: stylish-color-dark;
@@ -183,3 +188,6 @@ img{
 input{
   width: 400px;
 }
+
+
+
