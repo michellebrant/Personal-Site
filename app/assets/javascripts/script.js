@@ -51,12 +51,16 @@ $(window).bind('scroll', function() {
      }
 });
 
-  $(".navbar").hide(); //Hide the navigation bar first
-
-$(document).on('click', '[data-toggle="lightbox"]', function(event) {
-    event.preventDefault();
-    $(this).ekkoLightbox();
+$(window).bind('scroll', function() {
+     if ($(window).scrollTop() > 800) {
+         $('.allme').hide();
+     }
+     else {
+         $('.allme').show();
+     }
 });
+
+  $(".navbar").hide(); //Hide the navigation bar first
 
 
 description = $('.description')

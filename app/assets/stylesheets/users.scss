@@ -38,9 +38,12 @@ body{
 .work{
   font-family: 'Raleway', sans-serif;
   text-align: center;
-  height: 600px;
-  background-color: #3E4551;
-  color: white;
+  color: black;
+  background-color: white;
+  position: relative;
+  margin-top: 400px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 
 }
 
@@ -63,17 +66,19 @@ p{
   height: 800px;
   text-align: center;
   color: stylish-color-dark;
-   font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
 
 }
 
 
-#WRAPPER{
-  background-color:white;
+#ABOUTWRAPPER{
+  background-color: white;
   position: relative;
   margin-top: 800px;
-
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
+
 .skills2{
   margin-top: 50px;
   color: stylish-color-dark;
@@ -86,6 +91,7 @@ p{
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   text-align: center;
+  margin-top:100px;
 }
 
 h1{
@@ -131,8 +137,11 @@ li{
   text-align: center;
 }
 .skills3{
-  background-color: #e3f2fd;
-  height: 525px;
+  background-color: white;
+  position: relative;
+  margin-top: 400px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .tripcontainer{
@@ -162,11 +171,12 @@ li{
 }
 
 .contact{
-  height: 600px;
-  color: #3E4551;
+  height: 800px;
+  color: white;
   display: block;
   margin: 0 auto;
   text-align: center;
+  position: relative;
 }
 
 .logo{
@@ -189,5 +199,7 @@ input{
   width: 400px;
 }
 
-
-
+.bottom{
+  background-color:white;
+  position: fixed;
+}
