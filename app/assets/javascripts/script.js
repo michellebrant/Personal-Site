@@ -67,7 +67,10 @@ description = $('.description')
 description.hide();
 description2 = $('.description2')
 description2.hide();
-
+description3 = $('.description3')
+description3.hide();
+description4 = $('.description4')
+description4.hide();
 
 $('.tripcontainer').mouseenter(function(event) {
   console.log('it worked')
@@ -91,6 +94,30 @@ $('.foodcontainer').mouseleave(function(event) {
   console.log('it worked')
   $('.foodcontainer').removeClass('hover')
   description2.hide();
+});
+
+$('.messangercontainer').mouseenter(function(event) {
+  console.log('it worked')
+  $('.messangercontainer').addClass('hover')
+  description3.show();
+});
+
+$('.messangercontainer').mouseleave(function(event) {
+  console.log('it worked')
+  $('.messangercontainer').removeClass('hover')
+  description3.hide();
+});
+
+$('.mealcontainer').mouseenter(function(event) {
+  console.log('it worked')
+  $('.mealcontainer').addClass('hover')
+  description4.show();
+});
+
+$('.mealcontainer').mouseleave(function(event) {
+  console.log('it worked')
+  $('.mealcontainer').removeClass('hover')
+  description4.hide();
 });
 
 });
