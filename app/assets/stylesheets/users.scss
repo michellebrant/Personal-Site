@@ -1,8 +1,8 @@
 .head{
   background:
   linear-gradient(
-      rgba(0,0,0, .2),
-      rgba(0, 0, 0, .2)
+      rgba(0,0,0, .4),
+      rgba(0, 0, 0, .4)
     ), url("BKBridge.jpg") no-repeat 55%;
   background-size: 150%;
   height: 800px;
@@ -197,7 +197,7 @@ li{
 }
 
 .contact{
-  height: 800px;
+  height: 700px;
   color: white;
   display: block;
   margin: 0 auto;
@@ -228,4 +228,15 @@ input{
 .bottom{
   background-color:white;
   position: fixed;
+}
+
+.hi{
+  height: 40px;
+  width: 40px;
+  margin: 40px;
+}
+
+button{
+  color:black;
+  font-family: 'Raleway', sans-serif;
 }
