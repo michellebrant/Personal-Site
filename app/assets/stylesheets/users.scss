@@ -3,7 +3,7 @@
   linear-gradient(
       rgba(0,0,0, .4),
       rgba(0, 0, 0, .4)
-    ), url("BKBridge.jpg") no-repeat 55%;
+    ), image-url("BKBridge.jpg") no-repeat 55%;
   background-size: 150%;
   height: 800px;
   background-repeat: no-repeat;
@@ -152,7 +152,7 @@ li{
 }
 
 .tripcontainer{
-  background: url("mytrip.jpg") no-repeat 55%;
+  background: image-url("mytrip.jpg") no-repeat 55%;
   width: 502px;
   height: 290px;
   background-size: 100%;
@@ -161,7 +161,7 @@ li{
 }
 
 .foodcontainer{
-  background: url("foodlist.png") no-repeat 55%;
+  background: image-url("foodlist.png") no-repeat 55%;
   width: 351px;
   height: 203px;
   background-size: 100%;
@@ -170,7 +170,7 @@ li{
 }
 
 .mealcontainer{
-  background: url("mealplan.png") no-repeat 55%;
+  background: image-url("mealplan.png") no-repeat 55%;
   width: 351px;
   height: 203px;
   background-size: 100%;
@@ -179,7 +179,7 @@ li{
 }
 
 .messangercontainer{
-  background: url("messanger.png") no-repeat 55%;
+  background: image-url("messanger.png") no-repeat 55%;
   width: 351px;
   height: 203px;
   background-size: 100%;
