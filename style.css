@@ -1,19 +1,39 @@
-.head{
+.myhead{
   background:
   linear-gradient(
       rgba(0,0,0, .4),
       rgba(0, 0, 0, .4)
-    ), image-url("BKBridge.jpg") no-repeat 55%;
+    ), url("BKBridge.jpg") no-repeat 55%;
   background-size: 150%;
   height: 800px;
   background-repeat: no-repeat;
   position: fixed;
+  background-attachment: fixed;
   width: 100%;
 }
-body{
-    transition: opacity 300ms ease-out;
+
+#ABOUTWRAPPER{
+  background-color: white;
+  position: relative;
+  margin-top: 800px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: grey;
 }
-.title_card{
+
+.mytext{
+  padding-left: 15px;
+}
+
+html{
+  margin: 0 auto;
+}
+
+body{
+  margin: 0 auto;
+}
+
+.mytitle{
   text-align: center;
   padding-top: 200px;
   color: white;
@@ -52,7 +72,8 @@ body{
   margin-top: 400px;
   padding-top: 100px;
   padding-bottom: 100px;
-
+  height: 600px;
+  width: 100%;
 }
 
 footer{
@@ -68,6 +89,9 @@ p{
 
 .learnmore{
   font-family: 'Raleway', sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 15px;
 }
 
 .skills{
@@ -79,13 +103,6 @@ p{
 }
 
 
-#ABOUTWRAPPER{
-  background-color: white;
-  position: relative;
-  margin-top: 800px;
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
 
 .skills2{
   margin-top: 50px;
@@ -134,8 +151,7 @@ li{
      font-family: 'Raleway', sans-serif;
 }
 .me {
-    // border-radius: 45px;
-    margin-left: 80px;
+    margin-left: 50px;
 }
 #aboutmebold{
   font-weight: bold;
@@ -149,10 +165,11 @@ li{
   margin-top: 400px;
   // padding-top: 100px;
   padding-bottom: 100px;
+  height: 600px;
 }
 
 .tripcontainer{
-  background: image-url("mytrip.jpg") no-repeat 55%;
+  background: url("mytrip.jpg") no-repeat 55%;
   width: 502px;
   height: 290px;
   background-size: 100%;
@@ -161,7 +178,7 @@ li{
 }
 
 .foodcontainer{
-  background: image-url("foodlist.png") no-repeat 55%;
+  background: url("foodlist.png") no-repeat 55%;
   width: 351px;
   height: 203px;
   background-size: 100%;
@@ -170,7 +187,7 @@ li{
 }
 
 .mealcontainer{
-  background: image-url("mealplan.png") no-repeat 55%;
+  background: url("mealplan.png") no-repeat 55%;
   width: 351px;
   height: 203px;
   background-size: 100%;
@@ -179,7 +196,7 @@ li{
 }
 
 .messangercontainer{
-  background: image-url("messanger.png") no-repeat 55%;
+  background: url("messanger.png") no-repeat 55%;
   width: 351px;
   height: 203px;
   background-size: 100%;
@@ -247,4 +264,5 @@ button{
 .himichelle{
   font-size:20px;
 }
+
 
