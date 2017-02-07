@@ -291,10 +291,49 @@ button{
   margin-right: 15px;
   height: 50px;
   width: 50px;
-  color: yellow;
+
 }
 
-a:hover{
+.blackhover:hover{
   color: black;
   text-decoration: underline;
 }
+
+.fa-linkedin-square::before{
+  margin-top: 50px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 60px;
+/*   color: black; */
+
+}
+
+.fa-instagram::before{
+  margin-top: 50px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 60px;
+/*   color: black; */
+}
+
+.fa-github::before{
+  margin-top: 50px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 60px;
+/*   color: black; */
+}
+
+.fa-github:hover{
+  color: black;
+}
+
+.fa-instagram:hover{
+  color: black;
+}
+
+.fa-linkedin-square:hover{
+  color: black;
+}
+
+
