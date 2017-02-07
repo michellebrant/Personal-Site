@@ -10,6 +10,11 @@
   position: fixed;
   background-attachment: fixed;
   width: 100%;
+
+}
+
+.centericons{
+  text-align: center;
 }
 
 #ABOUTWRAPPER{
@@ -18,9 +23,12 @@
   margin-top: 800px;
   padding-top: 100px;
   padding-bottom: 100px;
-  color: grey;
+  color: stylish-color-dark;
 }
 
+.title_card{
+  font-size: 80px;
+}
 .mytext{
   padding-left: 15px;
 }
@@ -72,7 +80,7 @@ body{
   margin-top: 400px;
   padding-top: 100px;
   padding-bottom: 100px;
-  height: 600px;
+/*   height: 600px; */
   width: 100%;
 }
 
@@ -122,9 +130,18 @@ h1{
   margin: 0 auto;
 }
 h2{
-    color: stylish-color-dark;
-   font-family: 'Raleway', sans-serif;
+  color: stylish-color-dark;
+  font-family: 'Raleway', sans-serif;
   text-align: center;
+  margin: 0 auto;
+}
+
+.michelle{
+  text-align: left;
+}
+
+.about{
+  text-align: left;
 }
 .name{
   font-size: 40px;
@@ -152,6 +169,7 @@ li{
 }
 .me {
     margin-left: 50px;
+    margin-top: 45px;
 }
 #aboutmebold{
   font-weight: bold;
@@ -213,7 +231,7 @@ li{
 }
 
 .contact{
-  height: 700px;
+
   color: white;
   display: block;
   margin: 0 auto;
@@ -259,10 +277,24 @@ button{
 
 .byemichelle{
   font-size: 17px;
+  color: stylish-color-dark;
 }
 
 .himichelle{
   font-size:20px;
+  color: stylish-color-dark;
 }
 
+.links{
+  margin-top: 50px;
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 50px;
+  width: 50px;
+  color: yellow;
+}
 
+a:hover{
+  color: black;
+  text-decoration: underline;
+}
